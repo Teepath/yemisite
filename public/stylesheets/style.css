@@ -1,0 +1,26 @@
+body {
+  padding: 120px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.jumbotron{
+  background: url(../images/rain.jpg) no-repeat;
+}
+
+
+ul, .navbar-nav{
+  margin-left: 60px;
+  margin-right: 10px;
+}
+
+
+footer{
+  height: 40px;
+  margin-top: 30px;
+  text-align: center;
+  background: #fcf9f9;
+}

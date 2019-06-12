@@ -1,0 +1,37 @@
+doctype html
+html
+  head
+    title #{title}:Express Site
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+    meta(name="description" content="")
+    
+    meta(name="generator" content="Jekyll v3.8.5")
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/bootstrap.css')
+  body
+    nav.navbar.navbar-expand-md.navbar-light.bg-light.fixed-top
+      a.navbar-brand(href="#") O
+      button.navbar-toggler(type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" 
+      aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation")
+        span.navbar-toggler-icon
+      collapse.navbar-collapse
+         ul.navbar-nav
+          li.nav-item.active
+            a.nav-link(href="/") Home 
+             span.sr-only(current)
+          li.nav-item
+            a.nav-link(href="/about") About
+          li.nav-item
+            a.nav-link(href="/contact") Contact
+        
+
+
+
+
+    block content
+
+    footer copyright 2019, All right Reserved
+    script src('javascript/bootstrap.min.js')
+    script src("https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous")
+    script window.jQuery || document.write script src("/docs/4.3/assets/js/vendor/jquery-slim.min.js")
